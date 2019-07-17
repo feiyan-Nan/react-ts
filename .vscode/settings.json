@@ -1,0 +1,17 @@
+{
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  // 文件自动保存
+  "files.autoSave": "afterDelay",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "html",
+      { "language": "vue", "autoFix": true }
+    ],
+    "eslint.options": {
+      "plugins": ["html"]
+    },
+}

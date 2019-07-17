@@ -53,6 +53,8 @@
     "@types/node": "^12.6.6",
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
     "typescript": "^3.5.3"
   },
   "jest": {
@@ -104,5 +106,6 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "homepage":"."
 }
