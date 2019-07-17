@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.20.3",
     "autoprefixer": "7.1.6",
     "babel-jest": "20.0.3",
     "babel-loader": "7.1.2",
@@ -53,6 +54,7 @@
     "@types/node": "^12.6.6",
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
+    "babel-plugin-import": "^1.12.0",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "typescript": "^3.5.3"
@@ -102,10 +104,5 @@
       }
     }
   },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
-  },
-  "homepage":"."
+  "homepage": "."
 }

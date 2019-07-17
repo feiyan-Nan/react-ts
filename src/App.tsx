@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './App.less';
+import { DatePicker, Button } from 'antd';
 
 // import logo from './logo.svg';
 
@@ -7,9 +8,8 @@ class App extends React.Component {
   public render() {
     return (
       <div className="App">
-        <div className="box">
-          内容
-        </div>
+        <Button>132</Button>
+        <DatePicker>123</DatePicker>
       </div>
     );
   }
